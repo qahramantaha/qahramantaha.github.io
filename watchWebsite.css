@@ -121,3 +121,70 @@ margin-top: -10%;
   margin-left: 42%;
   margin-top: 2%;
 }
+
+
+
+
+
+
+.container3 { grid-row: span 3;	
+  background-color: rgb(54, 49, 16);		
+  margin-top: 3.5%;
+  height: 400px;	
+  width: 100%;					
+} 
+
+.one {
+  margin-left: 700px;
+  padding: 160px;
+}
+
+
+
+.container4 {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 200px;
+	gap: 5px;
+	
+}
+
+#two {
+  height: 400px;	
+  width: 100%;	
+  padding-top: 100px;
+  padding-left: 100px;
+  color: rgb(54, 49, 16);
+}
+
+#three {
+  height: 400px;	
+  width: 100%;	
+  padding-top: 100px;
+  padding-left: 300px;
+
+}
+.container5 {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	gap: 5px;
+	
+}
+
+.para2 {
+  margin-top: -580px;
+  margin-left: 150px;
+  color:aqua;
+}
+
+.para3 {
+  margin-top: -50px;
+  margin-left: 150px;
+  color:aqua;
+
+}
+
+.image15 {
+margin-left: 10%;}
+
+
