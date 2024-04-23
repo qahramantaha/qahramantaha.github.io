@@ -91,16 +91,18 @@
   }
     
 
-  #buyNow {
+  .buyNow {
     border: black solid 2px;
     border-radius: 15px;
     background-color: white;
     font-weight: 600;
+    cursor: pointer !important;
   }
 
 .video1 {
-margin-left: 33%;
-margin-top: -10%;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: -10%;
 }
 
 .para1 {
@@ -121,10 +123,6 @@ margin-top: -10%;
   margin-left: 42%;
   margin-top: 2%;
 }
-
-
-
-
 
 
 .container3 { grid-row: span 3;	
@@ -185,6 +183,13 @@ margin-top: -10%;
 }
 
 .image15 {
-margin-left: 10%;}
+margin-left: 10%;
+}
+
+.buyNowServices {
+   margin-left: 48%;
+}
+
+
 
 
