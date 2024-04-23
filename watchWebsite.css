@@ -197,4 +197,22 @@ margin-left: 10%;
 
 }
 
+#designPic1 {
+margin-left: 560px;
+}
 
+.designP {
+  text-align: left;
+  padding-left: 560px;
+
+}
+
+#designPic2 {
+  margin-left: 560px;
+  margin-top: 50px;
+  }
+  
+  .imagee3 {
+    mask-image: linear-gradient(to top, rgba(0,0,0,0), rgb(0, 0, 0,1));
+    margin-left: 27%;
+  }
