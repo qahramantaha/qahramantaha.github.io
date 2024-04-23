@@ -86,7 +86,7 @@
 
  
   #imagee {
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,1));
     padding-top: 250px;
   }
     
@@ -97,3 +97,27 @@
     background-color: white;
     font-weight: 600;
   }
+
+.video1 {
+margin-left: 33%;
+margin-top: -10%;
+}
+
+.para1 {
+  margin-top: -5%;
+}
+
+.picture1 {
+  margin-left: 33%;
+  margin-top: -2%;
+}
+
+.picture2 {
+  margin-left: 33%;
+  margin-top: 2%;
+}
+
+.picture3 {
+  margin-left: 42%;
+  margin-top: 2%;
+}
