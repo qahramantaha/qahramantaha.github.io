@@ -18,7 +18,7 @@
   
   #menu ul {
       list-style: none;
-      padding-left: 65px;
+      padding-left: 50px;
       margin-left:auto;
       width:900px;
       padding-top: 5px;
@@ -56,29 +56,28 @@
     background-color: #ffffff;
   }
 
-<<<<<<< HEAD
 
   #cart {
     float: right;
     margin-right: 40px;
     width: 30px;
     height: 30px;
-    padding-bottom: -50px;
   }
 
   #round{
     border-radius: 60px;
     background-color: white;
-    padding-bottom: -50px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
   }
 
 
   #cart2 {
     width: 23px;
     height: 25px;
-    margin-left: -2px;
-    padding-bottom: -50px;
-=======
+    margin-left: 0px;
+  }
+
   p {
     text-align: center;
     padding-top: 10px;
@@ -90,5 +89,4 @@
     border-radius: 15px;
     background-color: white;
     font-weight: 600;
->>>>>>> 6a437cc1c61325819bb4ea7bb74cf3974374170d
   }
