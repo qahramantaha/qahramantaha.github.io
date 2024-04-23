@@ -1,6 +1,7 @@
 * {
     margin: 0 auto 0 auto;
    text-align:left;
+   
 }
   
   
@@ -42,7 +43,6 @@
   }
   
   .p-1 {
-    
          text-align: center;
           }
   
@@ -56,6 +56,7 @@
     background-color: #ffffff;
   }
 
+<<<<<<< HEAD
 
   #cart {
     float: right;
@@ -77,4 +78,17 @@
     height: 25px;
     margin-left: -2px;
     padding-bottom: -50px;
+=======
+  p {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+
+  .buyNow {
+    border: black solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
+>>>>>>> 6a437cc1c61325819bb4ea7bb74cf3974374170d
   }
