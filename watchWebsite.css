@@ -58,4 +58,13 @@
 
   p {
     text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+  }
+
+  .buyNow {
+    border: black solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
   }
