@@ -23,7 +23,7 @@
       width:900px;
       padding-top: 5px;
   }
-  
+
   
   
   #menu a {
@@ -56,13 +56,44 @@
     background-color: #ffffff;
   }
 
+
+
+  #cart {
+    float: right;
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: -50px;
+  }
+
+  #round{
+    border-radius: 60px;
+    background-color: white;
+    padding-bottom: -50px;
+  }
+
+
+  #cart2 {
+    width: 23px;
+    height: 25px;
+    margin-left: -2px;
+    padding-bottom: -50px;
+  }
   p {
     text-align: center;
   }
 
+ 
   #imagee {
     mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
 
     padding-top: 250px;
+  }
     
+
+  .buyNow {
+    border: black solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
   }
