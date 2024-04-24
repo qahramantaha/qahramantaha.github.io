@@ -1,4 +1,4 @@
-* {
+ul {
     margin: 0 auto 0 auto;
    text-align:left;
    
@@ -215,4 +215,8 @@ margin-left: 560px;
   .imagee3 {
     mask-image: linear-gradient(to top, rgba(0,0,0,0), rgb(0, 0, 0,1));
     margin-left: 27%;
+  }
+
+  .signup{
+    background-color: rgb(212, 212, 212);
   }
