@@ -132,8 +132,13 @@ ul {
   width: 100%;					
 } 
 
-.one {
+
+.aboutus {
   margin-left: 700px;
+  padding: 160px;
+}
+
+.one {
   padding: 160px;
 }
 
@@ -162,12 +167,7 @@ ul {
   padding-left: 300px;
 
 }
-.container5 {
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	gap: 5px;
-	
-}
+
 
 .para2 {
   margin-top: -580px;
