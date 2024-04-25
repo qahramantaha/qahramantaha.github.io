@@ -220,3 +220,26 @@ margin-left: 560px;
   .signup{
     background-color: rgb(212, 212, 212);
   }
+
+  #carouselExample {
+    width: 470px;
+  }
+
+  #carouselExample2 {
+    width: 470px;
+  }
+
+  #carouselExample3 {
+    width: 470px;
+  }
+
+
+
+
+  .containerProdcuts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 500px;
+    gap: 5px;
+    
+  }
