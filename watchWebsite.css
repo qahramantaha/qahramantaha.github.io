@@ -233,6 +233,29 @@ margin-left: 560px;
     width: 470px;
   }
 
+  #carouselExample4 {
+    width: 470px;
+  }
+
+  #carouselExample5 {
+    width: 470px;
+  }
+
+  #carouselExample6 {
+    width: 470px;
+  }
+
+  #carouselExample7 {
+    width: 470px;
+  }
+
+  #carouselExample8 {
+    width: 470px;
+  }
+
+  #carouselExample9 {
+    width: 470px;
+  }
 
 
 
@@ -243,3 +266,29 @@ margin-left: 560px;
     gap: 5px;
     
   }
+
+  .containerProdcuts2 {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 500px;
+    gap: 5px;
+    
+  }
+
+  .containerProdcuts3 {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 500px;
+    gap: 5px;
+    
+  }
+
+
+  .image20 {
+  margin-top: 200px; 
+
+}
+
+
