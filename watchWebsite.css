@@ -1,104 +1,108 @@
-/*Qahraman Taha*/ul {
-    margin: 0 auto 0 auto;
-   text-align:left;
-   
+/*Qahraman Taha*/
+ul {
+  margin: 0 auto 0 auto;
+  text-align: left;
+
 }
-  
-  
- /*Qahraman Taha*/ #mainpic h1
-  {
-      position: absolute;
-  text-align:left;
-  font-size:30px;
-  color:#000000;	
-  top:150px;
-  
-  }
-
-  
- /*Qahraman Taha*/ #menu ul {
-      list-style: none;
-      padding-left: 50px;
-      margin-left:auto;
-      width:900px;
-      padding-top: 5px;
-  }
-
-  
-  
- /*Qahraman Taha*/ #menu a {
-      float: left;
-      width: 70px;
-      height: 60px;
-      text-align: center;
-      text-decoration: none;
-      color: #000000;
-      font-weight: bold;
-      padding-top: 17px;
-      font-size: 15px;
-  }
-  
-  #menu a:hover{
-      color:#464646;
-  }
-  
-  .p-1 {
-         text-align: center;
-          }
-  
-  .text-center {
-      margin: 80px;
-  }
-  
-  .container2 {
-    width: 100%;
-    height: 300px;
-    background-color: #ffffff;
-  }
 
 
-  #cart {
-    float: right;
-    margin-right: 40px;
-    width: 30px;
-    height: 30px;
-  }
+/*Qahraman Taha*/
+#mainpic h1 {
+  position: absolute;
+  text-align: left;
+  font-size: 30px;
+  color: #000000;
+  top: 150px;
 
-  #round{
-    border-radius: 60px;
-    background-color: white;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-  }
-  
+}
 
 
-  #cart2 {
-    width: 23px;
-    height: 25px;
-    margin-left: 0px;
-  }
+/*Qahraman Taha*/
+#menu ul {
+  list-style: none;
+  padding-left: 50px;
+  margin-left: auto;
+  width: 900px;
+  padding-top: 5px;
+}
 
-  p {
-    text-align: center;
-    font-weight: 600;
-    padding-top: 10px;
-  }
 
- 
- /*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/ #imagee {
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,1));
-    padding-top: 250px;
-  }
-    
 
-  .buyNow {
-    border: black solid 2px;
-    border-radius: 15px;
-    background-color: white;
-    font-weight: 600;
-    cursor: pointer !important;
-  }
+/*Qahraman Taha*/
+#menu a {
+  float: left;
+  width: 70px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding-top: 17px;
+  font-size: 15px;
+}
+
+#menu a:hover {
+  color: #464646;
+}
+
+.p-1 {
+  text-align: center;
+}
+
+.text-center {
+  margin: 80px;
+}
+
+.container2 {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+
+#cart {
+  float: right;
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+}
+
+#round {
+  border-radius: 60px;
+  background-color: white;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+#cart2 {
+  width: 23px;
+  height: 25px;
+  margin-left: 0px;
+}
+
+p {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+
+/*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/
+#imagee {
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  padding-top: 250px;
+}
+
+
+.buyNow {
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: white;
+  font-weight: 600;
+  cursor: pointer !important;
+}
 
 .video1 {
   margin-left: 30%;
@@ -126,15 +130,18 @@
 }
 
 
-/*Qahraman Taha*/.container3 { grid-row: span 3;	
-  background-color: rgb(54, 49, 16);		
+/*Qahraman Taha*/
+.container3 {
+  grid-row: span 3;
+  background-color: rgb(54, 49, 16);
   margin-top: 3.5%;
-  height: 400px;	
-  width: 100%;					
-} 
+  height: 400px;
+  width: 100%;
+}
 
 
-/*Qahraman Taha*/.aboutus {
+/*Qahraman Taha*/
+.aboutus {
   margin-left: 700px;
   padding: 160px;
 }
@@ -145,25 +152,26 @@
 
 
 
-/*Qahraman Taha*/.container4 {
-	display: grid;
-	grid-template-columns: 2fr 3fr;
-	grid-template-rows: 200px;
-	gap: 5px;
-	
+/*Qahraman Taha*/
+.container4 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 200px;
+  gap: 5px;
+
 }
 
 #two {
-  height: 400px;	
-  width: 100%;	
+  height: 400px;
+  width: 100%;
   padding-top: 100px;
   padding-left: 100px;
   color: rgb(54, 49, 16);
 }
 
 #three {
-  height: 400px;	
-  width: 100%;	
+  height: 400px;
+  width: 100%;
   padding-top: 100px;
   padding-left: 300px;
 
@@ -173,33 +181,35 @@
 .para2 {
   margin-top: -580px;
   margin-left: 150px;
-  color:aqua;
+  color: aqua;
 }
 
 .para3 {
   margin-top: -50px;
   margin-left: 150px;
-  color:aqua;
+  color: aqua;
 
 }
 
-/*Qahraman Taha*/.image15 {
-margin-left: 10%;
+/*Qahraman Taha*/
+.image15 {
+  margin-left: 10%;
 }
 
 .buyNowServices {
-   margin-left: 48%;
+  margin-left: 48%;
 }
 
 
 
-/*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/.imagee2 {
-  mask-image: linear-gradient(to top, rgba(0,0,0,0), rgb(0, 0, 0,1));
+/*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/
+.imagee2 {
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
 
 }
 
 #designPic1 {
-margin-left: 560px;
+  margin-left: 560px;
 }
 
 .designP {
@@ -211,84 +221,97 @@ margin-left: 560px;
 #designPic2 {
   margin-left: 560px;
   margin-top: 50px;
-  }
-  
-  /*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/.imagee3 {
-    mask-image: linear-gradient(to top, rgba(0,0,0,0), rgb(0, 0, 0,1));
-    margin-left: 27%;
-  }
+}
 
-  .signup{
-    background-color: rgb(212, 212, 212);
-  }
+/*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/
+.imagee3 {
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+  margin-left: 27%;
+}
 
-  /*Qahraman Taha*/#carouselExample {
-    width: 470px;
-  }
+.signup {
+  background-color: rgb(212, 212, 212);
+}
 
-  /*Qahraman Taha*/#carouselExample2 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample {
+  width: 470px;
+}
 
-  /*Qahraman Taha*/#carouselExample3 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample2 {
+  width: 470px;
+}
 
-  /*Qahraman Taha*/#carouselExample4 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample3 {
+  width: 470px;
+}
 
- /*Qahraman Taha*/ #carouselExample5 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample4 {
+  width: 470px;
+}
 
- /*Qahraman Taha*/ #carouselExample6 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample5 {
+  width: 470px;
+}
 
-  /*Qahraman Taha*/#carouselExample7 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample6 {
+  width: 470px;
+}
 
-  /*Qahraman Taha*/#carouselExample8 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample7 {
+  width: 470px;
+}
 
-  /*Qahraman Taha*/#carouselExample9 {
-    width: 470px;
-  }
+/*Qahraman Taha*/
+#carouselExample8 {
+  width: 470px;
+}
 
-
-
- /*Qahraman Taha*/ .containerProdcuts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 500px;
-    gap: 5px;
-    
-  }
-
-  /*Qahraman Taha*/.containerProdcuts2 {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 500px;
-    gap: 5px;
-    
-  }
-
-  /*Qahraman Taha*/.containerProdcuts3 {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 500px;
-    gap: 5px;
-    
-  }
+/*Qahraman Taha*/
+#carouselExample9 {
+  width: 470px;
+}
 
 
-  /*Qahraman Taha*/.image20 {
-  margin-top: 200px; 
+
+/*Qahraman Taha*/
+.containerProdcuts {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 500px;
+  gap: 5px;
 
 }
 
+/*Qahraman Taha*/
+.containerProdcuts2 {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 500px;
+  gap: 5px;
+
+}
+
+/*Qahraman Taha*/
+.containerProdcuts3 {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 500px;
+  gap: 5px;
+
+}
+
+
+/*Qahraman Taha*/
+.image20 {
+  margin-top: 200px;
+
+}
