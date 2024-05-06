@@ -1,244 +1,148 @@
-
 <!--Code by QahramanTaha Start-->
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="watchWebsite.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Watch Website</title>
-</head>
+<link rel="stylesheet" href="watchWebsite.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="Watches.js"></script>
+<style>
+  .container {
+    border: black solid 2px;
+  }
+  body {
+    background: linear-gradient(110deg, #C4DFE6 60%, #66A5AD 60%);
+  }
+  .form-control-sm:focus,
+  .form-control-sm {
+    outline: none;
+    box-shadow: none;
+  }
+  p {
+    font-size: 13px;
+  }
+  .small {
+    font-size: 9px !important;
+  }
+</style>
+</head>
 <body>
   <!--https://getbootstrap.com/docs/4.0/components/navbar/ This code displays a menu bar at the top of the page. Linking different pages.-->
   <div id="menu">
     <ul>
-        <li class="menuitem"><a href="Index.html">Home</a></li>
-        <li class="menuitem"><a href="#">|</a></li>
-        <li class="menuitem"><a href="About.html">About</a></li>
-        <li class="menuitem"><a href="#">|</a></li>
-        <li class="menuitem"><a href="Products.html">Products</a></li>
-        <li class="menuitem"><a href="#">|</a></li>
-        <li class="menuitem"><a href="Services.html">Services</a></li>
-        <li class="menuitem"><a href="#">|</a></li>
-        <li class="menuitem"><a href="Design.html">Design</a></li>
-        <li class="menuitem"><a href="#">|</a></li>
-        <li class="menuitem"><a href="Contact.html">Login/Signup</a></li>
-      </ul>
+      <li class="menuitem"><a href="Index.html">Home</a></li>
+      <li class="menuitem"><a href="#">|</a></li>
+      <li class="menuitem"><a href="About.html">About</a></li>
+      <li class="menuitem"><a href="#">|</a></li>
+      <li class="menuitem"><a href="Products.html">Products</a></li>
+      <li class="menuitem"><a href="#">|</a></li>
+      <li class="menuitem"><a href="Services.html">Services</a></li>
+      <li class="menuitem"><a href="#">|</a></li>
+      <li class="menuitem"><a href="Design.html">Design</a></li>
+      <li class="menuitem"><a href="#">|</a></li>
+      <li class="menuitem"><a href="Contact.html">Login/Signup</a></li>
+    </ul>
   </div>
  
-  <!--This code creates a button with an image inside. and a onclick function to go to the cart page-->
+  <!--This code creates a button with an image inside and an onclick function to go to the cart page-->
   <div id="cart">
-    <button id="round" onclick="openCart()"><img id="cart2" src="Cart.png"> <a href="Cart.html"></a></button>
-  </di>                 
+    <a href="Cart.html"><button id="round" onclick="openCart()"><img id="cart2" src="Cart.png"></button></a>
+  </div>                 
                             
   <!--https://getbootstrap.com/docs/4.0/layout/grid/. This code is a checkout area. Creates rows and columns for when a user buys an item. it would be displayed in this grid system-->
-      <h2 class="text-center">Checkout</h2>
+  <h2 class="text-center">Checkout</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">Item</div>
+      <div class="col-sm">Quantity</div>
+      <div class="col-sm">Price</div>
+    </div>
+  </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            item
-          </div>
-          <div class="col-sm">
-            quantity
-          </div>
-          <div class="col-sm">
-           price
-          </div>
-        </div>
-      </div>
-
-                              
-
-
-<!--https://freefrontend.com/bootstrap-payment-forms/ this code display a payment details form. where the user will have to enter thir bank details to purchase the items from the cart.-->
-
-    <p>SHIPPING DETAILS</p>
-     <hr>
-                            
-                            
-   
-        <div>
-           <div><p class="text-muted ">PAYMENT DETAILS</p><hr class="mt-0"></div>
-       </div>
-       <div class="form-group">
-        <label for="NAME" class="small text-muted mb-1">NAME ON CARD</label>
-        <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="BBBootstrap Team">
-      </div>
+  <!--https://freefrontend.com/bootstrap-payment-forms/ this code display a payment details form. where the user will have to enter their bank details to purchase the items from the cart-->
+  <p>SHIPPING DETAILS</p>
+  <hr>
+  <div>
+    <div><p class="text-muted">PAYMENT DETAILS</p><hr class="mt-0"></div>
+  </div>
+  <div class="form-group">
+    <label for="NAME" class="small text-muted mb-1">NAME ON CARD</label>
+    <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="BBBootstrap Team">
+  </div>
+  <div class="form-group">
+    <label for="CARD_NUMBER" class="small text-muted mb-1">CARD NUMBER</label>
+    <input type="text" class="form-control form-control-sm" name="CARD_NUMBER" id="CARD_NUMBER" aria-describedby="helpId" placeholder="4534 5555 5555 5555">
+  </div>
+  <div class="row no-gutters">
+    <div class="col-sm-6 pr-sm-2">
       <div class="form-group">
-        <label for="NAME" class="small text-muted mb-1">CARD NUMBER</label>
-        <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="4534 5555 5555 5555">
+        <label for="VALID_THROUGH" class="small text-muted mb-1">VALID THROUGH</label>
+        <input type="text" class="form-control form-control-sm" name="VALID_THROUGH" id="VALID_THROUGH" aria-describedby="helpId" placeholder="06/21">
       </div>
-      <div class="row no-gutters">
-        <div class="col-sm-6 pr-sm-2">
-          <div class="form-group">
-            <label for="NAME" class="small text-muted mb-1">VALID THROUGH</label>
-            <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="06/21">
-          </div>
-        </div>
-        <div class="col-sm-6">    
-          <div class="form-group">     
-            <label for="NAME" class="small text-muted mb-1">CVC CODE</label>     
-            <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="183">    
-          </div>     
-        </div>     
+    </div>
+    <div class="col-sm-6">    
+      <div class="form-group">     
+        <label for="CVC_CODE" class="small text-muted mb-1">CVC CODE</label>     
+        <input type="text" class="form-control form-control-sm" name="CVC_CODE" id="CVC_CODE" aria-describedby="helpId" placeholder="183">    
       </div>     
-      <div class="row mb-md-5">      
-        <div class="col">      
-          <button>PURCHASE</button>     
-        </div>    
-      </div> 
-
-            
-   
+    </div>     
+  </div>     
+  <div class="row mb-md-5">      
+    <div class="col">      
+      <button type="submit">PURCHASE</button>     
+    </div>    
+  </div>
 </body>
-<style>
-
-  .container {
-    border: black solid 2px;
-  
-  }
-  body{
-    background: linear-gradient(110deg, #C4DFE6 60%,#66A5AD  60%);                        
-}
-        
-
-.form-control-sm:focus,
-.form-control-sm {
-    outline: none;
-    box-shadow: none;
-}
-
-
-p{
-    font-size: 13px ;
-}
-        
-.small{
-    font-size: 9px !important;
-}
-
-
-</style>
 </html>
 <!--Code by Qahraman Taha End-->
-
