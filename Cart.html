@@ -26,6 +26,26 @@
   .small {
     font-size: 9px !important;
   }
+
+  /*Bartlomiej Pawlik*/
+  .form-row {
+    text-align: center;
+  }
+
+  /*Bartlomiej Pawlik*/
+  ::placeholder {
+    text-align: center;
+  }
+
+  /*Bartlomiej Pawlik*/
+  .cardPay {
+    margin-left: 47.5%;
+    margin-top: 30px;
+    border: black solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
+  }
 </style>
 </head>
 <body>
@@ -50,97 +70,80 @@
   <div id="cart">
     <a href="Cart.html"><button id="round" onclick="openCart()"><img id="cart2" src="Cart.png"></button></a>
   </div>                 
-                            
+  <!--Some of Bartlomiej's code included-->
   <!--https://getbootstrap.com/docs/4.0/layout/grid/. This code is a checkout area. Creates rows and columns for when a user buys an item. it would be displayed in this grid system-->
   <h2 class="text-center">Checkout</h2>
   <div class="container">
     <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
+      <div class="item col-sm">Item: </div>
+      <div class="amount col-sm">Quantity: </div>
+      <div class="price col-sm">Price: </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
+      <div class="item col-sm">Item: </div>
+      <div class="amount col-sm">Quantity: </div>
+      <div class="price col-sm">Price: </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
+      <div class="item col-sm">Item: </div>
+      <div class="amount col-sm">Quantity: </div>
+      <div class="price col-sm">Price: </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
+      <div class="item col-sm">Item: </div>
+      <div class="amount col-sm">Quantity: </div>
+      <div class="price col-sm">Price: </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
+      <div class="item col-sm">Item: </div>
+      <div class="amount col-sm">Quantity: </div>
+      <div class="price col-sm">Price: </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">Item</div>
-      <div class="col-sm">Quantity</div>
-      <div class="col-sm">Price</div>
-    </div>
   </div>
 
   <!--https://freefrontend.com/bootstrap-payment-forms/ this code display a payment details form. where the user will have to enter their bank details to purchase the items from the cart-->
   <p>SHIPPING DETAILS</p>
   <hr>
+  <!--Some of Bartlomiej's code included-->
   <div>
     <div><p class="text-muted">PAYMENT DETAILS</p><hr class="mt-0"></div>
   </div>
-  <div class="form-group">
-    <label for="NAME" class="small text-muted mb-1">NAME ON CARD</label>
-    <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="BBBootstrap Team">
-  </div>
-  <div class="form-group">
-    <label for="CARD_NUMBER" class="small text-muted mb-1">CARD NUMBER</label>
-    <input type="text" class="form-control form-control-sm" name="CARD_NUMBER" id="CARD_NUMBER" aria-describedby="helpId" placeholder="4534 5555 5555 5555">
-  </div>
-  <div class="row no-gutters">
-    <div class="col-sm-6 pr-sm-2">
-      <div class="form-group">
-        <label for="VALID_THROUGH" class="small text-muted mb-1">VALID THROUGH</label>
-        <input type="text" class="form-control form-control-sm" name="VALID_THROUGH" id="VALID_THROUGH" aria-describedby="helpId" placeholder="06/21">
-      </div>
+  <div class="form-row d-flex justify-content-center">
+    <div class="cardName form-group col-md-3 col-sm-12">
+      <label for="NAME" class="small text-muted mb-1 ">NAME ON CARD</label>
+      <input type="text" class="form-control form-control-sm" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter full name">
     </div>
-    <div class="col-sm-6">    
-      <div class="form-group">     
-        <label for="CVC_CODE" class="small text-muted mb-1">CVC CODE</label>     
-        <input type="text" class="form-control form-control-sm" name="CVC_CODE" id="CVC_CODE" aria-describedby="helpId" placeholder="183">    
-      </div>     
-    </div>     
-  </div>     
+  </div>
+  <div class="form-row d-flex justify-content-center">
+    <div class="cardNum form-group col-md-3 col-sm-12">
+      <label for="CARD_NUMBER" class="small text-muted mb-1">CARD NUMBER</label>
+      <input type="text" class="form-control form-control-sm" name="CARD_NUMBER" id="CARD_NUMBER" aria-describedby="helpId" placeholder="1111 2222 3333 4444">
+    </div>
+  </div>
+    <div class="form-row d-flex justify-content-center">
+        <div class="form-group col-md-1 col-sm-12">
+          <label for="VALID_THROUGH" class="small text-muted mb-1">VALID THROUGH</label>
+          <input type="text" class="form-control form-control-sm" name="VALID_THROUGH" id="VALID_THROUGH" aria-describedby="helpId" placeholder="01/24">
+        </div>
+      </div>
+      <div class="form-row d-flex justify-content-center">
+        <div class="form-group col-md-1 col-sm-12">     
+          <label for="CVC_CODE" class="small text-muted mb-1">CVC CODE</label>     
+          <input type="text" class="form-control form-control-sm" name="CVC_CODE" id="CVC_CODE" aria-describedby="helpId" placeholder="123">    
+        </div>     
+      </div>        
   <div class="row mb-md-5">      
     <div class="col">      
-      <button type="submit">PURCHASE</button>     
+      <button class="cardPay">PURCHASE</button>     
     </div>    
   </div>
 </body>
