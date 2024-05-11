@@ -26,7 +26,35 @@ ul {
   padding-top: 5px;
 }
 
+/*Bartlomiej Pawlik*/
+.buyNowServices {
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: white;
+  font-weight: 600;
+  margin-left: 50%;
+}
 
+.designTitle {
+  text-align: center;
+}
+
+/*Bartlomiej Pawlik*/
+.productBuy {
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: white;
+  font-weight: 600;
+}
+
+/*Bartlomiej Pawlik*/
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23088' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ /*Bartlomiej Pawlik*/
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23088' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
 
 /*Qahraman Taha*/
 #menu a {
@@ -41,19 +69,22 @@ ul {
   font-size: 15px;
 }
 
+/*Bartlomiej Pawlik*/
 #menu a:hover {
   color: #464646;
 }
 
+/*Bartlomiej Pawlik*/
 .p-1 {
   text-align: center;
 }
 
+/*Bartlomiej Pawlik*/
 .text-center {
   margin: 80px;
 }
 
-
+/*Bartlomiej Pawlik*/
 #cart {
   float: right;
   margin-right: 40px;
@@ -61,6 +92,7 @@ ul {
   height: 30px;
 }
 
+/*Bartlomiej Pawlik*/
 #round {
   border-radius: 60px;
   background-color: white;
@@ -68,12 +100,14 @@ ul {
   margin-bottom: 20px;
 }
 
+/*Bartlomiej Pawlik*/
 #cart2 {
   width: 23px;
   height: 25px;
   margin-left: 0px;
 }
 
+/*Bartlomiej Pawlik*/
 p {
   text-align: center;
   font-weight: 600;
@@ -87,34 +121,34 @@ p {
   padding-top: 250px;
 }
 
-
+/*Bartlomiej Pawlik*/
 .buyNow {
   border: black solid 2px;
   border-radius: 15px;
   background-color: white;
   font-weight: 600;
 }
-
+/*Bartlomiej Pawlik*/
 .video1 {
   margin-left: 30%;
   margin-right: 10%;
   margin-top: -10%;
 }
-
+/*Bartlomiej Pawlik*/
 .para1 {
   margin-top: -5%;
 }
-
+/*Bartlomiej Pawlik*/
 .picture1 {
   margin-left: 33%;
   margin-top: -2%;
 }
-
+/*Bartlomiej Pawlik*/
 .picture2 {
   margin-left: 33%;
   margin-top: 2%;
 }
-
+/*Bartlomiej Pawlik*/
 .picture3 {
   margin-left: 42%;
   margin-top: 2%;
@@ -130,18 +164,32 @@ p {
   width: 100%;
 }
 
+/*Bartlomiej Pawlik*/
+select {
+  width: 625px;
+}
+
+/*Bartlomiej Pawlik*/
+.form-row {
+  margin-top: 10px;
+}
+
 
 /*Qahraman Taha*/
 .aboutus {
   margin-left: 700px;
   padding: 160px;
 }
-
+/*Bartlomiej Pawlik*/
 .one {
   padding: 160px;
 }
 
-
+/*Bartlomiej Pawlik*/
+.btn {
+  margin-left: 47%;
+  margin-top: 10px;
+}
 
 /*Qahraman Taha*/
 .container4 {
@@ -151,7 +199,7 @@ p {
   gap: 5px;
 
 }
-
+/*Bartlomiej Pawlik*/
 #two {
   height: 400px;
   width: 100%;
@@ -159,7 +207,7 @@ p {
   padding-left: 100px;
   color: rgb(54, 49, 16);
 }
-
+/*Bartlomiej Pawlik*/
 #three {
   height: 400px;
   width: 100%;
@@ -168,13 +216,13 @@ p {
 
 }
 
-
+/*Bartlomiej Pawlik*/
 .para2 {
   margin-top: -580px;
   margin-left: 150px;
   color: aqua;
 }
-
+/*Bartlomiej Pawlik*/
 .para3 {
   margin-top: -50px;
   margin-left: 150px;
@@ -186,7 +234,7 @@ p {
 .image15 {
   margin-left: 10%;
 }
-
+/*Bartlomiej Pawlik*/
 .buyNowServices {
   margin-left: 48%;
 }
@@ -198,17 +246,15 @@ p {
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
 
 }
-
+/*Bartlomiej Pawlik*/
 #designPic1 {
   margin-left: 560px;
 }
-
+/*Bartlomiej Pawlik*/
 .designP {
-  text-align: left;
-  padding-left: 560px;
-
+  text-align: center;
 }
-
+/*Bartlomiej Pawlik*/
 #designPic2 {
   margin-left: 560px;
   margin-top: 50px;
@@ -217,9 +263,9 @@ p {
 /*Qahraman Taha https://www.w3schools.com/css//css3_masking.asp*/
 .imagee3 {
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
-  margin-left: 27%;
+  margin-left: 25%;
 }
-
+/*Bartlomiej Pawlik*/
 .signup {
   background-color: rgb(212, 212, 212);
 }
