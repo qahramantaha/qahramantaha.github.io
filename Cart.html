@@ -46,6 +46,15 @@
     background-color: white;
     font-weight: 600;
   }
+  /*Bartlomiej Pawlik*/
+  .totalPrice {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 23px;
+  }
+
 </style>
 </head>
 <body>
@@ -108,10 +117,34 @@
       <div class="price col-sm">Price: </div>
     </div>
   </div>
+  <div class="totalPrice">
+    Total price: 
+  </div>
   </div>
 
   <!--https://freefrontend.com/bootstrap-payment-forms/ this code display a payment details form. where the user will have to enter their bank details to purchase the items from the cart-->
+  <!--Bartlomiej Pawlik start-->
   <p>SHIPPING DETAILS</p>
+  <div class="form-row d-flex justify-content-center">
+    <div class="form-group col-md-4 col-sm-12">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+  </div>
+  <div class="form-row d-flex justify-content-center">
+    <div class="form-group col-md-4 col-sm-12">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+  </div>
+  <div class="form-row d-flex justify-content-center">
+    <div class="form-group col-md-4 col-sm-12">
+      <label for="inputCountry">Country</label>
+      <input type="text" class="form-control" id="inputCountry">
+    </div>
+  </div>
+  <!--Bartlomiej Pawlik end-->
+
   <hr>
   <!--Some of Bartlomiej's code included-->
   <div>
