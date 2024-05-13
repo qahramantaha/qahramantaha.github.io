@@ -353,3 +353,28 @@ select {
   margin-top: 200px;
 
 }
+
+
+/*Laoi*/
+.loginBox {
+  display: grid;
+  width: 80%;
+  height: auto;
+  border: 2px solid rgb(0, 0, 0); 
+  grid-gap: 20px;
+  background-color:rgb(100, 100, 100);
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.text-centerp2 {
+  color: rgb(0, 95, 8);
+}
+
+.text-centerp3 {
+  color: black;
+}
+
+#abUs {
+  font-size: 60px;
+}
