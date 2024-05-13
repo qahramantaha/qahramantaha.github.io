@@ -34,6 +34,7 @@ function addItemToCart(title, price, imageSrc){
     var item = {title, price, imageSrc};
     //This confirms that the item has been clicked so we know it works
     console.log('clicked')
+    cartItems = cartItems? cartItems : [];
     //This adds the item to the cartItems array
     cartItems.push(item);
     //This converts the cartItems array to a string and stores it in the local storage
