@@ -356,7 +356,7 @@ select {
 
 
 /*Laoi*/
-.loginBox {
+ .container{
   display: grid;
   width: 80%;
   height: auto;
