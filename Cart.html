@@ -349,6 +349,18 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+
+.purchaseBtn {
+    margin-left: 46.7%;
+    color: black;
+    background-color: rgb(216, 216, 216);
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 </style>
 </head>
 <body>
@@ -376,6 +388,8 @@ html, body {
   <!--Some of Bartlomiej's code included-->
   <!--https://getbootstrap.com/docs/4.0/layout/grid/. This code is a checkout area. Creates rows and columns for when a user buys an item. it would be displayed in this grid system-->
   <h2 class="text-center">Checkout</h2>
+
+  <button class="purchaseBtn" id="show-Card">Purchase</button>
   
   <!--Robert Onofrei, This is our cart system where you can add too, increase/decrease quantity, remove items from cart-->
   <section class="container content-section">
@@ -392,9 +406,7 @@ html, body {
         <span class="cart-total-price"></span>
     </div>
 <!--Robert Onofrei, This is our purchase system where you input ur card details no money will be take of course-->
-    <div class="center">
-        <button id="show-Card">Purchase</button>
-    </div>
+
     <div class="popup">
         <div class="close-btn">&times;</div>
         <div class="form">
@@ -426,6 +438,7 @@ html, body {
             </div>
         </div>
     </div>
+    
 </section>
 </body>
 </html>

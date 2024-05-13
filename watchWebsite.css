@@ -46,6 +46,8 @@ ul {
   border-radius: 15px;
   background-color: white;
   font-weight: 600;
+  margin-left: 195px;
+  padding: 5px;
 }
 
 /*Bartlomiej Pawlik*/
@@ -128,6 +130,7 @@ p {
   border-radius: 15px;
   background-color: white;
   font-weight: 600;
+  padding: 5px;
 }
 /*Bartlomiej Pawlik*/
 .video1 {
